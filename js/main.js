@@ -43,87 +43,87 @@ require([
         units: [{
             name: 'Water clock',
             description: "Drip pixels onto the screen. It's a slow process. (+1/s)",
-            cps: 1,
+            cps: 157248,
             displayAt: 0,
             basePrice: 64
         },{
             name: 'Hamster wheel',
             description: "Hamsters never get tired, as we all know. (+8/s)",
-            cps: 8,
+            cps: 1257984,
             displayAt: 256,
             basePrice: 504
         },{
             name: 'Relay',
             description: "A somewhat loud electromagnetic clicker. (+32/s)",
-            cps: 32,
+            cps: 5031936,
             displayAt: 2048,
             basePrice: 4032,
         },{
             name: 'RC oscillator',
             description: "At least it's quieter. (+128/s)",
-            cps: 128,
+            cps: 20127744,
             displayAt: 8192,
             basePrice: 24192
         },{
             name: '555 timer',
             description: "Electronics! Transistors! Other good things! (+504/s)",
-            cps: 504,
+            cps: 79252992,
             displayAt: 65536,
             basePrice: 157248
         },{
             name: 'Phase-locked loop',
             description: "An accurate oscillator is a rare thing. (+4 lines/s)",
-            cps: 2016,
+            cps: 317011986,
             displayAt: 262144,
             basePrice: 1048576
         },{
             name: 'Coal crystal',
             description: "It's a crystal, that must be better. (+16 lines/s)",
-            cps: 8064,
+            cps: 1268047872,
             displayAt: 2097152,
             basePrice: 4194304
         },{
             name: 'Graphite crystal',
             description: "I knew there was something wrong with coal. (+78 lines/s)",
-            cps: 39312,
+            cps: 6181733376,
             displayAt: 8388608,
             basePrice: 24772608
         },{
             name: 'Quartz crystal',
             description: "Used in watches, with good reason. (+1 frame/s)",
-            cps: 157248,
+            cps: 24726933504,
             displayAt: 67108864,
             basePrice: 134217728
         }],
 
         upgrades: [{
             name: 'Doubleclick',
-            description: "What it says on the tin. (+1px per click)",
+            description: "What it says on the tin. (2px per click)",
             power: 1,
             displayAt: 0,
             price: 64
         },{
             name: 'Multi-touch',
-            description: "It's like two fingers are clicking. (+4px per click)",
-            power: 4,
+            description: "It's like two fingers are clicking. (4px per click)",
+            power: 2,
             displayAt: 128,
             price: 256
         },{
             name: 'Bouncy fingers',
             description: "Adds springs to the mouse button. (+16px per click)",
-            power: 16,
+            power: 12,
             displayAt: 1024,
             price: 2048
         },{
             name: 'Multibyte click',
-            description: "An extra-wide mouse button. (+64px per click)",
-            power: 64,
+            description: "An extra-wide mouse button. (64px per click)",
+            power: 48,
             displayAt: 8192,
             price: 16384
         },{
             name: 'Raster-click',
-            description: "All hail his Noodliness. No, hold on... (+1 line per click)",
-            power: 504,
+            description: "All hail his Noodliness. No, hold on... (1 line per click)",
+            power: 440,
             displayAt: 32768,
             price: 157248
         },{
@@ -134,8 +134,8 @@ require([
             price: 157248
         },{
             name: 'If I had a million pixels',
-            description: "I'd click two lines at the same time, man. (+2 lines per click)",
-            power: 1008,
+            description: "I'd click two lines at the same time, man. (2 lines per click)",
+            power: 468,
             displayAt: 157248,
             price: 1048576
         },{
